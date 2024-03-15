@@ -2,14 +2,14 @@ Workout Tracker
 
 This project is part of a course called "Dynamic Web Apps with JavaScript." The Workout Tracker helps you keep track of your workouts online. You can add exercises you've done, like push-ups or squats, and save them to look back on later.
 
-How to Use
+How to Use:
 
     1.Open the file called index.html in your web browser.
     2.Fill in the boxes with your exercise details:
-        *Exercise: Write the name of the exercise.
-        *Sets: Tell how many sets you did.
-        *Reps: Write how many times you repeated each set.
-        *Weight (kg): How heavy the weights were (in kilograms).
+        Exercise: Write the name of the exercise.
+        Sets: Tell how many sets you did.
+        Reps: Write how many times you repeated each set.
+        *eight (kg): How heavy the weights were (in kilograms).
     3.Click the "Add Exercise" button.
     4.If you need to take a break, you can start a timer by clicking "Start Rest Timer." To reset the timer, click "Reset Rest Timer."
     5.After you finish your workout, click "Save Workout" to keep a record.
