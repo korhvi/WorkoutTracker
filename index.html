@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Workout Tracker</h1>
+        </header>
+        <section id="form">
+            <div class="input-group">
+                <label for="exercise">Exercise:</label>
+                <input type="text" id="exercise" class="input-field">
+            </div>
+            <div class="input-group">
+                <label for="sets">Sets:</label>
+                <input type="number" id="sets" class="input-field">
+            </div>
+            <div class="input-group">
+                <label for="reps">Reps:</label>
+                <input type="number" id="reps" class="input-field">
+            </div>
+            <div class="input-group">
+                <label for="weight">Weight (kg):</label>
+                <input type="number" id="weight" class="input-field">
+            </div>
+            <button onclick="addExercise()" class="button primary">Add Exercise</button>
+        </section>
+        <div id="error-message" class="error-message"></div>
+        <section id="exercises">
+            <h2>Exercises</h2>
+            <ul id="exercise-list"></ul>
+            <div class="timer-buttons">
+                <button onclick="startRestTimer()" class="button primary">Start Rest Timer</button>
+                <button onclick="resetRestTimer()" class="button secondary">Reset Rest Timer</button>
+            </div>
+            <div id="rest-timer" class="rest-timer">00:00:00</div>
+            <button onclick="saveWorkout()" class="button primary">Save Workout</button>
+        </section>
+        <section id="saved-workouts">
+            <h2>Saved Workouts</h2>
+            <ul id="saved-workouts-list"></ul>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
