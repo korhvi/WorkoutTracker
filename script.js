@@ -1,4 +1,3 @@
-// script.js
 var restTimerInterval;
 var restTimeElapsed = 0;
 var restTimerRunning = false;
