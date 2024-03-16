@@ -2,6 +2,7 @@ Workout Tracker
 
 This project is part of a course called "Dynamic Web Apps with JavaScript." The Workout Tracker helps you keep track of your workouts online. You can add exercises you've done, like push-ups or squats, and save them to look back on later.
 
+
 How to Use:
 
     1.Open the file called index.html in your web browser.
@@ -36,3 +37,5 @@ Folder Structure
 Author
 
 This project was created by Ville Korhonen.
+
+You can access the deployed project: https://workouttr.netlify.app/
