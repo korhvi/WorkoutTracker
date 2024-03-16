@@ -10,7 +10,7 @@ How to Use:
         Exercise: Write the name of the exercise.
         Sets: Tell how many sets you did.
         Reps: Write how many times you repeated each set.
-        *eight (kg): How heavy the weights were (in kilograms).
+        Weight (kg): How heavy the weights were (in kilograms).
     3.Click the "Add Exercise" button.
     4.If you need to take a break, you can start a timer by clicking "Start Rest Timer." To reset the timer, click "Reset Rest Timer."
     5.After you finish your workout, click "Save Workout" to keep a record.
